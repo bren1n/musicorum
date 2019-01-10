@@ -4,19 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>idk</title>
+    <title>Musicorum - Streaming de qualidade</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/materialize.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body style="font-family: 'Raleway', sans-serif;">
     <nav>
         <div class="nav-wrapper deep-purple lighten-1">
-            <a href="#" class="brand-logo" style="font-family: 'Raleway', sans-serif; margin-left: 10px; font-weight: bold">Musicorum</a>
+            <a href="#" class="brand-logo">Musicorum</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="">Streaming</a></li>
                 <li><a href="">Planos</a></li>
@@ -26,22 +26,41 @@
     </nav>
 
     <center>
-        <div class="section deep-purple lighten-2" style="height: 70%">
+        <div class="section deep-purple lighten-2">
             <div class="row">
-                <div class="container col s6" style="margin-top: 6%;">
-                    <h2 class="white-text" style="font-weight: bold; width: 65%; text-align: left">Ouça os sons do
+                <div class="container col s6">
+                    <h2 class="white-text">Ouça os sons do
                         momento
                         com máxima qualidade!</h2>
-                    <p class="white-text" style="font-size: 30px; margin-right: 20px">Descubra as músicas que são a sua
+                    <p class="white-text">Descubra as músicas que são a sua
                         cara!</p>
                 </div>
 
-                <div class="container col s6" style="margin-top: 50px;">
-                    <img src="img/astroworld.jpg" width="250px" height="250px">
-                    <img src="img/trench.jpg" width="250px" height="250px">
+
+                <div class="div2 container col s6">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                    <script>
+                        $(document).ready(function () {
+                            $('.tooltipped').tooltip({
+                                delay: 50,
+                            });
+                        });;
+                    </script>
+                    <a href="" class="tooltipped" data-position="top" data-tooltip="ASTROWORLD - Travis Scott">
+                        <img class="astroworld" src="img/astroworld.jpg" width="250px" height="250px">
+                    </a>
+                    <a href="" class="tooltipped" data-position="top" data-tooltip="Trench - Twenty One Pilots">
+                        <img src="img/trench.jpg" width="250px" height="250px">
+                    </a>
                     <br>
-                    <img src="img/getenough.jpg" width="250px" height="250px">
-                    <img src="img/x.jpg" width="250px" height="250px">
+                    <a href="" class="tooltipped" data-position="top" data-tooltip="Get Enough - Paul McCartney">
+                        <img src="img/getenough.jpg" width="250px" height="250px">
+                    </a>
+                    <a href="" class="tooltipped" data-position="top" data-tooltip="? - XXXTENTACION">
+                        <img src="img/x.jpg" width="250px" height="250px">
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,62 @@
+a.brand-logo{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px; 
+    font-weight: bold
+}
+
+div.section.deep-purple{
+    height: 70%
+}
+
+div.container.col.s6{
+    margin-top: 6%;
+}
+
+h2.white-text{
+    font-weight: bold;
+    width: 65%;
+    text-align: left
+}
+
+p.white-text{
+    font-size: 30px;
+    margin-right: 2.5%
+}
+
+div.div2.container.col.s6{
+    margin-top: 50px;
+}
+
+img{
+    padding: 5px
+}
+
+a img:hover{
+    opacity: 70%
+}
+
+@keyframes opacity{
+    0% {opacity: 1}
+    20% {opacity: 0.9;}
+    40% {opacity: 0.8;}
+    60% {opacity: 0.7;}
+    80% {opacity: 0.6;}
+    100% {opacity: 0.5;}
+}
+
+i{
+    position: absolute;
+    right: 29.5%;
+    top: 20.5%;
+    visibility: hidden;
+    opacity: 0
+}
+
+img:hover{
+    animation: opacity 0.5s forwards;
+}
+
+img:hover i.material-icons{
+    visibility: visible;
+    opacity: 1;
+}
