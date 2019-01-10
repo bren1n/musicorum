@@ -56,7 +56,51 @@ img:hover{
     animation: opacity 0.5s forwards;
 }
 
-img:hover i.material-icons{
-    visibility: visible;
-    opacity: 1;
+h3.title-comments{
+    font-weight: bold;
+}
+
+h5.comments{
+    font-weight: bold;
+}
+
+p.comments{
+    text-align: justify;
+    width: 69%;
+    font-size: 16px
+}
+
+a.comments p{
+    text-align: left;
+    margin-left: 15.5%;
+    color: #7e57c2;
+    font-size: 16px
+}
+
+a.comments p:hover{
+    color: #9575cd
+}
+
+p#comments2{
+    margin-left: 6%
+}
+
+a.comments p#comments2{
+    margin-left: 18.5%
+}
+
+p#comments3{
+    margin-left: 3.8%
+}
+
+a.comments p#comments3{
+    margin-left: 17.5%
+}
+
+h4.white-text{
+    font-weight: bold
+}
+
+div.footer-copyright{
+    text-align: center
 }
